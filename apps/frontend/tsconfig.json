@@ -1,0 +1,12 @@
+{
+  "extends": "@reagin/config/tsconfig",
+  "compilerOptions": {
+    "lib": [
+      "ES2022",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "module": "es2022",
+    "moduleResolution": "bundler"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "extends": "@reagin/config/tsconfig",
+  "compilerOptions": {
+    "lib": [
+      "ES2022"
+    ],
+    "declaration": true,
+    "declarationMap": true
+  }
+}
