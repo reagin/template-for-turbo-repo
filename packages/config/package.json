@@ -1,0 +1,8 @@
+{
+  "name": "@reagin/config",
+  "type": "module",
+  "version": "1.0.0",
+  "exports": {
+    "./tsconfig": "./tsconfig.json"
+  }
+}
