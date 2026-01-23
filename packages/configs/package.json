@@ -1,0 +1,11 @@
+{
+  "name": "@template-for-monorepo/configs",
+  "type": "module",
+  "private": true,
+  "exports": {
+    "./tsconfig": "./tsconfig/base.json"
+  },
+  "files": [
+    "tsconfig"
+  ]
+}

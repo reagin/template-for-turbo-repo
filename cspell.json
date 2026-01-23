@@ -1,0 +1,36 @@
+{
+  "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/packages/cspell-types/cspell.schema.json",
+  "version": "0.2",
+  "language": "en,zh",
+  "caseSensitive": false,
+  "files": ["apps/**", "packages/**"],
+  "import": ["@cspell/dict-lorem-ipsum/cspell-ext.json"],
+  "dictionaries": ["custom-directory"],
+  "dictionaryDefinitions": [
+    {
+      "name": "custom-directory",
+      "path": ".cspell",
+      "addWords": true
+    }
+  ],
+  "ignorePaths": [
+    "**/node_modules/**",
+    "**/.next/**",
+    "**/.cache/**",
+    "**/.turbo/**",
+    "**/dist/**",
+    "**/build/**",
+    "**/coverage/**",
+    "yarn.lock",
+    "pnpm-lock.yaml",
+    "package-lock.json",
+    "*.svg",
+    "*.log"
+  ],
+  "languageSettings": [
+    {
+      "languageId": "typescript,javascript,typescriptreact,javascriptreact",
+      "ignoreRegExpList": ["/\\/\\/\\s*@ts-ignore/", "/\\/\\/\\s*eslint-disable-next-line/"]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "template-for-monorepo",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "pnpm@10.28.1+sha512.7d7dbbca9e99447b7c3bf7a73286afaaf6be99251eb9498baefa7d406892f67b879adb3a1d7e687fc4ccc1a388c7175fbaae567a26ab44d1067b54fcb0d6a316",
+  "description": "This repository mainly used to create templates for personal creation and development of turbo monorepo",
+  "engines": {
+    "node": ">=22.22.0",
+    "pnpm": ">=10.28.1"
+  },
+  "scripts": {
+    "lint:cspell": "cspell lint --cache --cache-location=./node_modules/.cache/cspell/.cspell-cache",
+    "lint:eslint": "eslint . --fix --quiet --cache --cache-file=./node_modules/.cache/eslint/.eslint-cache",
+    "lint:prettier": "prettier . --write --cache --log-level=warn"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "catalog:",
+    "@cspell/dict-lorem-ipsum": "catalog:",
+    "@eslint-react/eslint-plugin": "catalog:",
+    "@types/node": "catalog:",
+    "cspell": "catalog:",
+    "eslint": "catalog:",
+    "eslint-config-prettier": "catalog:",
+    "eslint-plugin-better-tailwindcss": "catalog:",
+    "eslint-plugin-format": "catalog:",
+    "eslint-plugin-perfectionist": "catalog:",
+    "eslint-plugin-prettier": "catalog:",
+    "eslint-plugin-react": "catalog:",
+    "eslint-plugin-react-hooks": "catalog:",
+    "eslint-plugin-react-refresh": "catalog:",
+    "lefthook": "catalog:",
+    "prettier": "catalog:",
+    "tailwindcss": "catalog:",
+    "typescript": "catalog:"
+  }
+}

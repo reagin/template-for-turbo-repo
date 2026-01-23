@@ -1,0 +1,8 @@
+{
+  "name": "@template-for-monorepo/schemas",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "echo @template-for-monorepo/schemas: no test specified"
+  }
+}

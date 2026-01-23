@@ -1,0 +1,8 @@
+{
+  "name": "@template-for-monorepo/frontend",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "echo @template-for-monorepo/frontend: no test specified"
+  }
+}

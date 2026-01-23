@@ -1,0 +1,12 @@
+pre-commit:
+  commands:
+    cspell-check:
+      run: pnpm run lint:cspell
+
+    eslint-repair:
+      run: pnpm run lint:eslint
+      stage_fixed: true
+
+    prettier-beautify:
+      run: pnpm run lint:prettier
+      stage_fixed: true
